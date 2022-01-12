@@ -2092,6 +2092,26 @@ img.svg {
 	position: relative;
 	overflow: hidden;
 }
+
+.arlo_tm_button-send {
+	text-decoration: none;
+	color: #fff;
+	background-color: #e3872d;
+	font-weight: 600;
+	font-family: 'Montserrat';
+	padding: 12px 35px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	border: none;
+	transition: all 0.2s ease-in;
+}
+
+.arlo_tm_button-send:hover {
+	background-color: #d66e06;
+}
+
 .arlo_tm_contact_wrap .arlo_tm_button a:before {
 	position: absolute;
 	content: '';
